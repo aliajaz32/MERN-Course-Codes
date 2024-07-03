@@ -1,0 +1,4 @@
+1. Class components
+
+2. Netinfo
+3. RN CLI setup

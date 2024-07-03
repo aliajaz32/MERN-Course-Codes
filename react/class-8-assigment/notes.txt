@@ -1,0 +1,7 @@
+*OLX Continuation*
+
+
+1. Implement Routing
+2. Upon login, it should navigate to Dashboard
+3. Get all ads from firebase
+4. Show ads on Detail Page

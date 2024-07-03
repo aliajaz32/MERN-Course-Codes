@@ -1,0 +1,3 @@
+* Build Profile Page, with update profile fields functionality (image, name, age, etc)
+* Implement Redux configuration
+* Complete remaining part.

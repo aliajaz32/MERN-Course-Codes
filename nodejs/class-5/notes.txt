@@ -1,0 +1,3 @@
+A. Registration -> Password Encryption
+B. Login -> Generate Token
+C. Protected APIs -> Verify Token

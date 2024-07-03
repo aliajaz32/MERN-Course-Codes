@@ -1,0 +1,12 @@
+Olx APP UI. All of the followings should have appropriate UI
+- Sign in / Sign up Views (with firebase integration)
+- Dashboard (with static Ads, Single Ad component should be created)
+- Detail (On clicking any Ad, it should show the Ad Detail)
+- Sell (On top right, there should be a button "Sell", On Clicking it, Sell component should appear that will have following fields:
+ Category (Dropdown)
+ Title
+Description
+Price
+Images (Limit to 5 images)
+Submit button 
+)

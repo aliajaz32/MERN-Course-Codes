@@ -1,0 +1,5 @@
+Create CRUD operations APIs for:
+1. Users
+2. Ads
+
+Hint: For delete and update, you will need to send the particular id from frontend as a query param and use the first argument (req) on the API to get that param.

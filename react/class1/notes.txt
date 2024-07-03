@@ -1,0 +1,5 @@
+React Project steps:
+1. Install NodeJs
+2. Check node -v and npm -v
+3. Open CMD in any directory where you want to install project.
+4. Create project using `npx create-react-app project-name-here`

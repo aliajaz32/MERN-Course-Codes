@@ -1,0 +1,7 @@
+Create a document with description and examples for:
+
+
+
+1. Renderings (String, Array & Array of object)
+2. State
+3. Conditional Rendering

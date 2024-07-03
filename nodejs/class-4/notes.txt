@@ -1,0 +1,20 @@
+Authorization
+
+
+1. npm i bcryptjs jsonwebtoken
+i: bcryptjs (Password encryption)
+ii: jsonwebtoken (jwt: Token generation)
+2. jwt secret (config/jwt.js)
+3. add methods in models
+i. comparePassword
+ii. generateToken
+iii. removeToken
+iv. pre('save')
+4. create register and login routes
+
+
+
+A. Registration -> Password Encryption
+B. Login -> Generate Token
+C. Protected APIs -> Verify Token
+*/

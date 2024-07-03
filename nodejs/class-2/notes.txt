@@ -1,0 +1,6 @@
+1. Nodemon
+2. Routes
+3. app.use vs router.use
+4. app.use vs router.get
+5. get and post request in detail
+6. express.json()

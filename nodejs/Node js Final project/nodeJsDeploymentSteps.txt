@@ -1,0 +1,16 @@
+https://devcenter.heroku.com/articles/deploying-nodejs
+
+Steps:
+1. Signup to heroku
+2. Add "engines": {
+"node": "14.x"
+} in package.json
+3. Add /node_modules
+npm-debug.log
+.DS_Store
+/*.env in .gitignore
+
+open terminal:
+4. npm install -g heroku
+5. heroku login
+6. https://devcenter.heroku.com/articles/deploying-nodejs#deploy-your-application-to-heroku

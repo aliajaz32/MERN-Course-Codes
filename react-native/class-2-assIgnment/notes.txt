@@ -1,0 +1,8 @@
+Here's the recommended design:
+https://www.figma.com/file/JnKjp1HPq9LtyQpIbYxrmg/Tax.io---Taxi-ui-kit-(Community)?node-id=1%3A23
+
+So create UI screens:
+1. Login with Facebook
+2. Dashboard screen that will have a search bar (for Pickup address), a Map (https://docs.expo.dev/versions/latest/sdk/map-view/)
+   - On clicking upon the search bar, a modal should appear that will have a search bar and random addresses below (we'll make it dynamic in next classes)
+   - Upon clicking any address, should save in the state. The modal should close and the address should appear against the search bar on dashboard and a continue button.

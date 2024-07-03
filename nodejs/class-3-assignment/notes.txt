@@ -1,0 +1,5 @@
+- Connect with Mongodb
+- Create CRUD operations for a Quiz API:
+
+Required fields and sample values:
+{"category":"Science & Nature","type":"multiple","difficulty":"hard","question":"Which one of these is scientific term for &quot;Brain Freeze&quot;?","correct_answer":"Sphenopalatine Ganglioneuralgia","incorrect_answers":["Hyacinthoides Italica","Amaranthus Retroflexus","Amblyomma Americanum"]}

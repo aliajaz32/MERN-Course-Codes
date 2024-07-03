@@ -1,0 +1,2 @@
+UI components: View, Text, Image, Touchable Opacity
+APIs: Webview, Camera

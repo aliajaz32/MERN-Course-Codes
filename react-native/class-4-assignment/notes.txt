@@ -1,0 +1,5 @@
+- Connect the app with firebase
+- First page should have Sign in as User and Sign in as Driver view, upon clicking any button it should Login with Facebook and navigate to either Driver routes or User routes
+
+- Complete the User flow using database
+- Complete the Driver flow using database

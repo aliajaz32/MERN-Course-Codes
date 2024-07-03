@@ -1,0 +1,7 @@
+1. Try Webview with any website.
+2. Create two buttons.
+   i) Take picture from Camera, on clicking it, should open the camera, take picture and show it.
+- Camera should be able to open Flash light
+- Camera should be able to record video. After recording video. Show it on the app.
+
+   ii) Take picture from Gallery, on clicking it, should open the gallery, take picture and show it.

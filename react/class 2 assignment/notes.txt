@@ -1,0 +1,6 @@
+Develop complete Todo list with CRUD functionality
+Create
+Read
+Update
+Delete
+Bonus: Develop with appropriate UI as well.

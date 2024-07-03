@@ -1,0 +1,29 @@
+/*
+2 cases of useEffect
+
+1. Initially koi kam karwana ho (after first render).
+For e.g.
+i. Initial data fetch
+ii. Any logical function to be called
+
+useEffect(() => {
+
+}, [])
+[] is specifiying that it will run initially once.
+and is called dependency array
+
+2. Kisi state ya props ke
+update hone per koi kam karwana ho.
+For e.g.
+1. Jab props.title === 'kashif',
+to kashif ka data API se fetch karlo
+is ke ilawa kuch na karo
+
+useEffect(() => {
+if(props.title === 'kashif') {
+//call api
+}
+}, [props.title, useLessState])
+
+3. End
+*/

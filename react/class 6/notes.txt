@@ -1,0 +1,2 @@
+useEffect all cases
+Firebase integration & authentication

@@ -1,0 +1,7 @@
+Continuing previous assignment
+
+- on Pickup screen, Get current location on map
+- Click on Destination button should navigate to Destination screen
+- Destination screen should show the Marker on Map locating the Pickup location selected for now. We'll show the location name in upcoming class using Foursquare API.
+- Allow user to drag and drop the marker (See Marker documentation for Mapview) to select the Destination.
+- Create a select car button, it should open modal to select cars.

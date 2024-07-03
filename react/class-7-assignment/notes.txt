@@ -1,0 +1,5 @@
+OLX App continuation
+
+* Upon Signup, additional information should be sent to firestore
+* Ad Sells Screen: Upon submitting (except image) all info should be added to firestore within 'ads' collection
+* Dashboard Screen: Show all ads from firestore. Search how to get data from the particular collection in firestore.

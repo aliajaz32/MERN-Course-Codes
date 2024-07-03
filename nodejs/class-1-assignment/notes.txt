@@ -1,0 +1,3 @@
+Create basic APIs like these:
+https://jsonplaceholder.typicode.com/posts
+https://jsonplaceholder.typicode.com/albums

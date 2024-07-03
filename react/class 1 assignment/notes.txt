@@ -1,0 +1,10 @@
+Render these into App.js:
+
+const name = "Hello World";
+const obj = {name: "Hello World Object"}
+const data = ['We', 'are', 'United'] //Show these in seperate tags
+const list = [{name: "Hello World 1"}, {name: "Hello World 2"}, {name: "Hello World 3"}] //Show these in seperate tags
+const complex = [{company: 'XYZ', jobs: ['Javascript,' 'React']}, {company: 'ABC', jobs: ['AngularJs' 'Ionic']}] //Show these in a Table
+
+What to submit:
+Just submit your App.js file.

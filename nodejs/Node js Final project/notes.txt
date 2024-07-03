@@ -1,0 +1,21 @@
+Write an API for Book resourceGet one/all booksCreate bookUpdate bookDelete book
+Book Fields
+name
+image_url
+author
+pages
+price
+
+Tasks:
+Every field is required
+Please add authentication and all routes should be restricted.
+Use the appropriate database (Mongodb/SQL).
+Add proper folder structure.
+Use Coding best practices
+Make assumptions whenever necessary
+Use node js security best practices
+
+
+Deliverables
+1. Deployed link of API documentation using Swagger. Checkout swagger.io
+2. Github repo of your code with proper README.md

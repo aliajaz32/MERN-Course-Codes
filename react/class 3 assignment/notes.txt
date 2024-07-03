@@ -1,0 +1,17 @@
+1. Create multiple screens (Dashboard, Profile, Detail etc), render them in App.js along with the list above. On clicking each item, it should render that component only.
+2. Develop a Facebook post component!That will take a prop as an object
+{
+createdBy: 'Somebody's name'
+avatar: 'Somebody profile picture url'
+description: "I'm not feeling good today!",
+images: ['something.com/abc.jpg', ''something.com/xyz.jpg'']
+createdAt: Date.now(),
+}
+develop the component to use these fields with the same design as Facebook posts or think for another unique and stunning design.
+
+If the images are provided in the object, it should show images as in FB.
+* Use https://github.com/Expertizo/react-fb-image-grid for facebook grid images... (follow the README for instructions)
+
+What else left after the above things, we'll implement in future assignments!
+This will enable you to provide your components to other developers, they'll just need to add an object and magically your component will return a Facebook post feature!
+Basically, I'm moving you guys to develop a library!
