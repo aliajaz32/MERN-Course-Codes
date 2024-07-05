@@ -14,7 +14,6 @@ function App() {
       <p>Ye P ka text hai: {text} {car.name}</p>
       <p>Car name: {car.name}</p>
       <p>Car model: {car.model}</p>
-
       <ul>
         {list.map(item => {
           return <li>{item}</li>
