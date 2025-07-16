@@ -1,14 +1,14 @@
 import './App.css';
 
-
 function App() {
- 
 
 
- return (
+
+  return (
     <div className="App">
-     <h1>class 3 </h1>
-    
+      
+      <h1> firebase authentication </h1>
+
     </div>
   );
 }

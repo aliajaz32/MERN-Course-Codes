@@ -17,7 +17,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-const auth = getAuth()
+const auth = getAuth();
 
 function register(email, password) {
 //Asynchoronous functions

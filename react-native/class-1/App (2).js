@@ -5,6 +5,7 @@ import { WebView } from 'react-native-webview';
 import { Camera } from 'expo-camera';
 
 export default function App() {
+
   const [hasPermission, setHasPermission] = useState(null);
   const [type, setType] = useState(Camera.Constants.Type.back);
   const [currentImage, setCurrentImage] = useState()
@@ -16,7 +17,7 @@ export default function App() {
   }, [])
 
   if (!hasPermission) {
-    return <View>
+    return  <View>
       <Text>You don't camera permission</Text>
     </View>
   }
@@ -40,26 +41,26 @@ export default function App() {
           uri: currentImage
         }}
       /> :
-      <Camera style={styles.camera} type={type} ref={cameraRef}>
-        <View style={styles.buttonContainer}>
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => {
-              setType(
-                type === Camera.Constants.Type.back
-                  ? Camera.Constants.Type.front
-                  : Camera.Constants.Type.back
-              );
-            }}>
-            <Text style={styles.text}> Flip </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.button}
-            onPress={takePicture}>
-            <Text style={styles.text}> Picture lelay! </Text>
-          </TouchableOpacity>
-        </View>
-      </Camera>}
+        <Camera style={styles.camera} type={type} ref={cameraRef}>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => {
+                setType(
+                  type === Camera.Constants.Type.back
+                    ? Camera.Constants.Type.front
+                    : Camera.Constants.Type.back
+                );
+              }}>
+              <Text style={styles.text}> Flip </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={takePicture}>
+              <Text style={styles.text}> Picture lelay! </Text>
+            </TouchableOpacity>
+          </View>
+        </Camera>}
       <StatusBar style="auto" />
       {/* <WebView
         style={styles.container}
